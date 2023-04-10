@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Schibsted+Grotesk:wght@400;500;600;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
+:root{
+  --title-font: 'Space Grotesk';
+  --main-color: #FEF083;
+  --second-color: #007560;
+  --third-color: #F98E72;
+  --fourth-color: #C3FCF1;
+}
+
+#root{
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+}
+
+.App{
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  font-family: var(--title-font);
+  color: var(--second-color);
+  font-weight: 400;
+  font-size: 2em;
+}

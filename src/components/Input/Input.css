@@ -1,0 +1,6 @@
+#todo-input{
+    width: 50%;
+    height: 2em;
+    border-radius: 4px;
+    border: 1px solid var(--second-color);
+}
